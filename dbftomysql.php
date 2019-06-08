@@ -45,7 +45,7 @@ $longoptions = Array(
         'log_path');
 
 $message = "
-     usage: dbfs2sql.php (options)\n
+     usage: dbfstosql.php (options)\n
     -h= 'db_host - MySQL Server (default localhost)'
     or -h=url:port  'db_host:db_port - MySQL Port (default 3306)'
     -u= '[db_username] - MySQL Username (default: root)'
