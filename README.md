@@ -35,7 +35,12 @@ Using terminal go to the directory to place _dbftomysql_ and type the followings
 ```sh
 git clone https://github.com/jobdiogenes/dbftomysql.git
 cd dbftomysql
-
-git clone https://github.com/nchizhov/inok-dbf2mysql lib/inok-dbf2mysql
 composer install
 ```
+
+Convertion standards
+
+* DATE and TIME fields -> NULL
+* GENERAL and IMAGE fields -> BLOB
+* LOGICAL -> _1_ or _0_
+* MEMO -> TEXT

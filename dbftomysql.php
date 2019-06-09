@@ -23,7 +23,7 @@
  *  @version   1.0
 */
 header('Content-Type: text/html; charset=utf-8');
-require_once 'lib/autoload.php';
+require_once 'vendor/autoload.php';
 
 $defaults = [
       "dbf_charset"     => 850,
@@ -46,7 +46,7 @@ $longoptions = Array(
         'log_path');
 
 $message = "
-     usage: dbfstosql.php (options)\n
+     usage: dbftomysql.php (options)\n
     -h= 'db_host - MySQL Server (default localhost)'
     or -h=url:port  'db_host:db_port - MySQL Port (default 3306)'
     -u= '[db_username] - MySQL Username (default: root)'
