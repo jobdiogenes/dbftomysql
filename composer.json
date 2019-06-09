@@ -1,0 +1,21 @@
+{
+  "name": "dbftomysql",
+  "description": "Command line application to convert xBASE-files to MySQL",
+  "keywords": ["dbf", "mysql", "converter", "dbase", "foxpro", "clipper", "harbour"],
+  "homepage": "https://github.com/jobdiogenes/dbftomysql",
+  "type": "application",
+  "license": "GPL",
+  "version": "3",
+  "authors": [
+     {
+       "name": "Job Diogenes Ribeiro Borges",
+       "email": "jobdiogenes@gmail.com",
+       "homepage": "https://jobdiogenes.githun.io",
+       "role": "Computer Analyst"
+     }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "inok/dbf2mysql": "~1.0.3"
+  }
+}

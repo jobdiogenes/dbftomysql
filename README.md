@@ -30,3 +30,12 @@ If null - import of all files from directory (default: null)'\n
 - -x= '[deleted_records] - Import records marked for exclusion: creating column with name 'deleted' (default: false)'
 - -v= '[verbose] - Show import process in console (default: true)'
 - -l= '[log_path] - Log-file with import process. If empty or null - not logging (default: current script directory)
+### Installation
+Using terminal go to the directory to place _dbftomysql_ and type the followings commands:
+```sh
+git clone https://github.com/jobdiogenes/dbftomysql.git
+cd dbftomysql
+
+git clone https://github.com/nchizhov/inok-dbf2mysql lib/inok-dbf2mysql
+composer install
+```
